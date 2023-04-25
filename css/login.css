@@ -6,6 +6,7 @@
 }
 
 body {
+    margin-top: 0;
     background-color: rgb(252, 224, 191);
     height: 100vh;
     display: flex;
@@ -17,8 +18,8 @@ body {
     color: #251002;
 }
 
-.banner {
-    height:40vh;
+.banner img {
+    height:80vh;
     margin-top: 5px;
     border-color: #251002;
 }
@@ -67,9 +68,11 @@ body {
     width: 400px;
     padding: 1rem;
     margin: 2rem;
+    margin-top: 40px;
     background-color: rgb(51, 51, 51, 0.602);
     text-align: center;
     color:#251002;
+  
 }
 
 .create-account {
@@ -98,7 +101,7 @@ body {
 }
 
 .border-icon:hover {
-    background-color: #4a4aee;
+    background-color: #816c32;
     cursor: pointer;
 }
 
@@ -110,10 +113,11 @@ body {
     width: 70%;
     display: block;
     margin: auto;
+    margin-top:30px;
     margin-bottom: 2rem;
-    background-color: transparent;
+    background-color: rgb(253, 250, 250);
     border: none;
-    border-bottom: rgb(131, 224, 88) thin solid;
+    border-bottom: rgb(43, 21, 5) thin solid;
     text-align: center;
     outline: none;
     padding: .2rem 0;
@@ -121,7 +125,7 @@ body {
     color: rgb(5, 5, 5);
 }
 
-.formulario :placeholder-shown {
+.formulario ::placeholder {
     color:#251002;
 }
 .formulario input[type="button"] {
