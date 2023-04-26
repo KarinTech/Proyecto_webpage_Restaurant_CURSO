@@ -6,7 +6,7 @@
 }
 
 body {
-    margin-top: 0;
+   
     background-color: rgb(252, 224, 191);
     height: 100vh;
     display: flex;
@@ -22,9 +22,10 @@ body {
     margin-left: 10px;
     margin-right:45%;
     padding:5px;
+    margin-top: 100px;
 }
 .banner img {
-    height:95vh;
+    height: 95vh;
     border-color: #251002;
     position:absolute;
 }
@@ -44,7 +45,6 @@ body {
     text-align: center;
     width:40vw;
     position:relative;
-    margin-top:20%;
     margin-left:4%;
     position:relative;
 }
@@ -174,7 +174,29 @@ body {
     color: #0a0a0a;
 }
 
-
+.requirement-list li {
+    font-size: 1.3rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .requirement-list li i {
+    width: 20px;
+    color: #aaa;
+    font-size: 0.6rem;
+  }
+  .requirement-list li.valid i {
+    font-size: 1.2rem;
+    color: #4285F4;
+  }
+  .requirement-list li span {
+    margin-left: 12px;
+    color: #333;
+  }
+  .requirement-list li.valid span {
+    color: #999;
+  }
 
 
 
