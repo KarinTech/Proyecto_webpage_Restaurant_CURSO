@@ -1,31 +1,70 @@
-//Para acceder al valor de los campos vamos a utilizar la función .getElementById
-let p1 = document.getElementById("password").value;
-let p2 = document.getElementById("password2").value;
+const btnEnviar = document.getElementById('btn-enviar');
 
-let espacios = false;
-let cont = 0;
-
-while (!espacios && (cont < p1.length)) {
-  if (p1.charAt(cont) == " ")
-    espacios = true;
-  cont++;
-}
-   
-if (espacios) {
-  alert ("La contraseña no puede contener espacios en blanco");
-  return false;
-}
-
-if (p1.length == 0 || p2.length == 0) {
-  alert("Los campos de la password no pueden quedar vacios");
-  return false;
+const validación = (e) => {
+  e.preventDefault();
+  const nombreDeUsuario = document.getElementById('usuario');
+  const direcciónEmail = document.getElementById('email');
+  if (usuario.value === "") {
+    alert("Por favor, escribe tu nombre de usuario.");
+    usuario.focus();
+    return false;
+  }
+  if (email.value === "") {
+    alert("Por favor, escribe tu correo electrónico");
+    email.focus();
+    return false;
+  }
+  
+  return true;
 }
 
-if (p1 != p2) {
-  alert("Las passwords deben de coincidir");
-  return false;
-} else {
-  alert("Todo esta correcto");
-  return true; 
+submitBtn.addEventListener('click', validate);
+
+const emailVálido = email => {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  }
+  
+  emailVálido('free@code@camp.org') // false
+  emailVálido('quincy@freecodecamp.org') 
+  
+  const btnEnviar = document.getElementById('btn-enviar');
+
+const validación = (e) => {
+  e.preventDefault();
+  const nombreDeUsuario = document.getElementById('usuario');
+  const direcciónEmail = document.getElementById('email');
+  if (usuario.value === "") {
+    alert("Por favor, escribe tu nombre de usuario.");
+    usuario.focus();
+    return false;
+  }
+    
+  if (email.value === "") {
+    alert("Por favor, escribe tu correo electrónico");
+    email.focus();
+    return false;
+  }
+
+  if (!emailVálido(email.value)) {
+    alert("Por favor, escribe un correo electrónico válido");
+    emailAddress.focus();
+    return false;
+  }
+  
+  return true; //Se pueden enviar los datos del formulario al servidor
 }
 
+const emailVálido = email => {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
+
+submitBtn.addEventListener('click', validate);
+  
+  // true
+
+
+/*const checkPassWord = (pass) => /^[A-Z]/.test(pass);
+
+function checkPassWordNormal(pass) {
+    return /^[A-Z]/.test(pass);
+}*/
