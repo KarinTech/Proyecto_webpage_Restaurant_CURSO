@@ -29,10 +29,3 @@ if (p1 != p2) {
   return true; 
 }
 
-if (p1 != p2) {
-  alert("Las passwords deben de coincidir");
-  return false;
-} else {
-  alert("Contraseña generada");
-  return true; 
-}
