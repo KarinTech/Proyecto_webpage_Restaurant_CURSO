@@ -1,32 +1,121 @@
-// Recuerda que le archivo js debe e ir en una carpeta aparte al igual que todos los archivos js
+const btnEnviar = document.getElementById('btn-enviar');
 
-// Recibimos lo que el usuario esta colocando dentro de los campos mediante el ElementById
-const enviar = document.getElementById('boton')
-const usuario = document.getElementById('nombre')
-const password = document.getElementById('password')
-
-// Iniciamos una funcion que efectuara ciertas operaciones al cargar la apgina
-inicio_v()
-function inicio_v() {
-    // Iniciamos un evento el cual nos permite ejecutar o preparar el fomrularioo cuando la pagina se carga
-    document.addEventListener('DOMContentLoaded',inicio)
+const validación = (e) => {
+  e.preventDefault();
+  const nombreDeUsuario = document.getElementById('usuario');
+  const direcciónEmail = document.getElementById('email');
+  if (usuario.value === "") {
+    alert("Por favor, escribe tu nombre de usuario.");
+    usuario.focus();
+    return false;
+  }
+  if (email.value === "") {
+    alert("Por favor, escribe tu correo electrónico");
+    email.focus();
+    return false;
+  }
+  
+  return true;
 }
-// Esta funcion es la que controlara el inicio de dicho formulario
-function inicio() {
-    enviar.disabled = true;
-    console.log('Cargando')
 
-    usuario.addEventListener('blur',validacion)
-    password.addEventListener('blur',validacion)
+submitBtn.addEventListener('click', validate);
 
+const emailVálido = email => {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  }
+  
+  emailVálido('free@code@camp.org') // false
+  emailVálido('quincy@freecodecamp.org') 
+  
+  const btnEnviar = document.getElementById('btn-enviar');
 
+const validación = (e) => {
+  e.preventDefault();
+  const nombreDeUsuario = document.getElementById('usuario');
+  const direcciónEmail = document.getElementById('email');
+  if (usuario.value === "") {
+    alert("Por favor, escribe tu nombre de usuario.");
+    usuario.focus();
+    return false;
+  }
+    
+  if (email.value === "") {
+    alert("Por favor, escribe tu correo electrónico");
+    email.focus();
+    return false;
+  }
+
+  if (!emailVálido(email.value)) {
+    alert("Por favor, escribe un correo electrónico válido");
+    emailAddress.focus();
+    return false;
+  }
+  
+  return true; //Se pueden enviar los datos del formulario al servidor
 }
-// Validamos los datos que se envian y damos al usuario una respuesta
-// Dependiendo si los datos estan bien se efectuara la sentencia
-function validacion(e) {
-    if (e.target.value.length > 0) {
-        console.log('informacion valida')
-    } else {
-       window.alert('Ingresa correctamente tus datos')
-    }
+
+const emailVálido = email => {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
+
+submitBtn.addEventListener('click', validate);
+  
+  // true
+
+
+/*const checkPassWord = (pass) => /^[A-Z]/.test(pass);
+
+function checkPassWordNormal(pass) {
+    return /^[A-Z]/.test(pass);
+}*/
+
+submitBtn.addEventListener('click', validate);
+
+const emailVálido = email => {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  }
+  
+  emailVálido('free@code@camp.org') // false
+  emailVálido('quincy@freecodecamp.org') 
+  
+  const btnEnviar = document.getElementById('btn-enviar');
+
+const validación = (e) => {
+  e.preventDefault();
+  const nombreDeUsuario = document.getElementById('usuario');
+  const direcciónEmail = document.getElementById('email');
+  if (usuario.value === "") {
+    alert("Por favor, escribe tu nombre de usuario.");
+    usuario.focus();
+    return false;
+  }
+    
+  if (email.value === "") {
+    alert("Por favor, escribe tu correo electrónico");
+    email.focus();
+    return false;
+  }
+
+  if (!emailVálido(email.value)) {
+    alert("Por favor, escribe un correo electrónico válido");
+    emailAddress.focus();
+    return false;
+  }
+  
+  return true; //Se pueden enviar los datos del formulario al servidor
+}
+
+const emailVálido = email => {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
+
+submitBtn.addEventListener('click', validate);
+  
+  // true
+
+
+/*const checkPassWord = (pass) => /^[A-Z]/.test(pass);
+
+function checkPassWordNormal(pass) {
+    return /^[A-Z]/.test(pass);
+}*/
