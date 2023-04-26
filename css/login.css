@@ -18,34 +18,54 @@ body {
     color: #251002;
 }
 
+.container-general {
+    margin-left: 10px;
+    margin-right:45%;
+    padding:5px;
+}
 .banner img {
-    height:80vh;
-    margin-top: 5px;
+    height:95vh;
     border-color: #251002;
+    position:absolute;
 }
 .container-form {
     width: 90%;
     height: 90vh;
+    margin-top:35%;
     display: flex;
     justify-content: space-around;
     transition:  all .5s ease-out;
+    
 }
 
 .welcome-back {
     display: flex;
     align-items: center;
     text-align: center;
+    width:40vw;
+    position:relative;
+    margin-top:20%;
+    margin-left:4%;
+    position:relative;
 }
 
 .message {
     padding: 1rem;
+    margin-top: 20px;
+    
 }
 
 .message h2 {
     font-size: 1.7rem;
     padding: 1rem 0;
+    color:#bba362;
+    font-weight: bold;
 }
+.message span {
+    color:rgb(95, 72, 39);
+    font-weight: bold;
 
+}
 .message button {
     padding: 1rem;
     font-weight: 400;
@@ -64,12 +84,24 @@ body {
     background-color: #a4741a;
 }
 
+.formulario2 {
+    height:20vh;
+
+}
+
+.formulario2 input {
+    border-radius: 20px;
+    height:7rem;
+    background-color: white;
+    border-color: #251002;
+}
 .formulario {
     width: 400px;
+    height:750px;
     padding: 1rem;
     margin: 2rem;
-    margin-top: 40px;
-    background-color: rgb(51, 51, 51, 0.602);
+    margin-top: 54px;
+    background-color: rgba(166, 162, 162, 0.602);
     text-align: center;
     color:#251002;
   
@@ -142,18 +174,8 @@ body {
     color: #0a0a0a;
 }
 
-.sign-in {
-    position: absolute;
-    opacity: 0;
-    visibility: hidden;
-}
 
-.sign-in.active {
-    opacity: 1;
-    visibility: visible;
-}
 
-.sign-up.active {
-    opacity: 0;
-    visibility: hidden;
-}
+
+
+
