@@ -40,6 +40,8 @@ body {
 }
 
 .welcome-back {
+    margin-top: 38%;
+    margin-left: 30%;
     display: flex;
     align-items: center;
     text-align: center;
@@ -52,24 +54,26 @@ body {
 .message {
     padding: 1rem;
     margin-top: 20px;
+    color:rgb(54, 27, 1);
+    font-weight: bolder;
     
 }
 
 .message h2 {
     font-size: 1.7rem;
     padding: 1rem 0;
-    color:#bba362;
+    color:#080400;
     font-weight: bold;
 }
 .message span {
-    color:rgb(95, 72, 39);
+    color:rgb(251, 213, 160);
     font-weight: bold;
 
 }
 .message button {
     padding: 1rem;
     font-weight: 400;
-    background-color: #28282a;
+    background-color: #f6f6f6;
     border-radius: 2rem;
     border: none;
     outline: none;
@@ -84,6 +88,10 @@ body {
     background-color: #a4741a;
 }
 
+.message a{
+    text-decoration: none;
+    color:rgb(5, 5, 4);
+}
 .formulario2 {
     height:20vh;
 
@@ -91,7 +99,7 @@ body {
 
 .formulario2 input {
     border-radius: 20px;
-    height:7rem;
+    height:12rem;
     background-color: white;
     border-color: #251002;
 }
