@@ -1,96 +1,83 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Volkhov', serif;
 }
 
-h1 {
+body {
+  background-color: #D1D1C8;
+}
+
+.nosotros {
     width: 100%;
     height: 150px;
+    margin-top:75px;
     text-align: center;
     line-height: 150px;
     font-size: 50px;
     font-style: italic;
     background: linear-gradient(to bottom, transparent, #DF7B37);
+    font-family: 'Volkhov', serif;
 }
 
-.flex-container1 {
+.gif-container {
+  display: flex;
+  margin: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gif-item {
+  width: 385px;
+  height: 290px;
+  border: 2px solid #24272a;
+  box-shadow: 1px 1px 5px #000000;
+  border-radius: 10px;
+}
+
+.flex-container {
     display: flex;
     margin: 20px;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.flex-item1 {
+.flex-item-texto {
     margin: 10px;
     width: 400px;
     height: 190px;
     min-width: 200px;
     padding: 30px;
-    background: linear-gradient(to bottom, pink, #9C6D5D);
-    line-height: 30px;
-    border: 2px groove rgb(214, 161, 161);
-    border-style: groove;
+    background: linear-gradient(to bottom, rgb(219, 188, 148), #c7c5c5);
+    line-height: 25px;
+    border: 2px groove #0D0501;
+    box-shadow: 1px 1px 5px #000000;
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
+    overflow: auto;
 }
 
-.flex-item2 {
+.flex-item-foto {
     background: lightblue;
     margin: 10px;
     width: 300px;
     height: 250px;
     min-width: 200px;
     border: 2px groove rgb(214, 161, 161);
+    box-shadow: 1px 1px 5px #000000;
+    border-radius: 10px;
 }
 
-.flex-container2 {
-    display: flex;
-    margin: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.flex-item3 {
-    background: lightblue;
-    margin: 10px;
-    width: 300px;
-    height: 250px;
-    min-width: 200px;
-    border: 2px groove rgb(214, 161, 161);
-}
-
-.flex-item4 {
-    margin: 10px;
-    width: 400px;
-    height: 190px;
-    min-width: 200px;
-    padding: 30px;
-    background: linear-gradient(to bottom, pink, #9C6D5D);
-    line-height: 30px;
-    border: 2px groove rgb(214, 161, 161);
-    border-style: groove;
-}
-
-img {
+.fotos {
     width: 300px;
     height: 250px;
 }
 
-.flex-container1:hover .flex-item2 {
+.flex-container:hover .flex-item-foto {
     -webkit-transform:scale(1.1);
     transform:scale(1.1);
     transition: 1s;
-
 }
 
-.flex-container2:hover .flex-item3 {
-    -webkit-transform:scale(1.1);
-    transform:scale(1.1);
-    transition: 1s;
-
-}
-.flex-container2 {
-    overflow:hidden;
-}
 .header {
     background-color: #24272a;
     height: 80px;
@@ -201,7 +188,7 @@ img {
       background: none;
       color: #9c6d5d;
     }
-  
+   
     .nav-toggle {
       display: block;
     }
