@@ -1,5 +1,5 @@
 ﻿## Proyecto_webpage_Restaurant_CURSO
- # Restaurante Sensazione
+ # Restaurante *Sensazione*
  ### Webpage de un restaurante con links para :
  1. Reservas
  2. Recomendados
