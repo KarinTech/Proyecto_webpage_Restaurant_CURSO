@@ -22,7 +22,7 @@
  Vinos - muestra la seleccion de Vinos del restaurante, con la informacion sobre procedencia etc . Esa pagina fue hecha con consumo de una API desde una base de datos creada por nosotras.
  #
  Reservas - formulario para reservar una cena personalizada. 
- ![Fotos](img\fotocard.jpeg)
+ ![Fotos](https://raw.githubusercontent.com/KarinTech/Proyecto_webpage_Restaurant_CURSO/main/media/Melanzane%20II%20-Pinterest-%20Redimensionada.gif)
  # obs.
  Habíamos pensado incluir seccion de crear cuenta vip y login antes de reservas, quedaba muy bonito visualmente pero consideramos que desde el punto de vista de la UX (Experiencia del Usuario), no seria conveniente pasar por tantas instancias para llegar a Reservas. 
  ##
