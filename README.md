@@ -44,7 +44,7 @@
  ##
  Aunque dividimos por contenido el trabajo, todas colaboramos en las paginas, para acertar detalles de estilo, posicion y funcionalidade. Cristina Grisolia tambien se encargo de organizar los datos para la base de datos que luego transformamos en una API por medio de sheetsdb.io .
  
- #  Conclusion del proceso: estamos contentas con el resultado aunque sabemos que puedo tener limitaciones, por ejemplo, nos gustaria haber incluido mas accesibilidad como menu en audio, pero la fecha de la entrega ya se acercaba y no pudimos incluirlo y estamos motivadas a ir por mas en la carrera como programadoras.
+ #  Conclusion del proceso: estamos contentas con el resultado aunque sabemos que pudo tener limitaciones, por ejemplo, nos gustaría haber incluido mas accesibilidad como menu en audio, pero la fecha de la entrega ya se acercaba y no pudimos incluirlo y estamos motivadas a ir por mas en la carrera como programadoras.
  
 
  
