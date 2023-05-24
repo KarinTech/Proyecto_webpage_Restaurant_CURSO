@@ -1,0 +1,172 @@
+[
+{"Plato recomendado": "Melanzane alla parmigiana",
+"Vino | Varietal": "Livverá Sangiovese 2021",
+"Bodega": "Bodega Escala Humana Wines",
+"Procedencia": "Valle de Uco - Mendoza",
+"Marida con": "Alimentos que tengan tomate o pimiento rojo y con quesos duros",
+"Precio": "$ 7300.-",        
+"Imagen": "./Imágenes de vinos/livvera-sangiovese-520x520.jpg"
+}
+
+,{"Plato recomendado": "Melanzane alla parmigiana",
+"Vino | Varietal": "Brancaia Chianti Classico",
+"Bodega": "Riserva DOCG",
+"Procedencia": "Italia",
+"Marida con": "Primeros platos, risottos, carnes y pescados a la brasa",
+"Precio": "$ 27000.-",
+"Imagen": "./Imágenes de vinos/brancaia-520x520 -Chianti-.jpg"
+}
+
+,{"Plato recomendado": "Burratina fritta",
+"Vino | Varietal": "Chardonnay 2020",
+"Bodega": "Bodega Fileni Martin",
+"Procedencia": "Valle de Uco - Mendoza",
+"Marida con": "Ensaladas frescas, quesos blandos, pastas y pescados",
+"Precio": "$ 27000.-",
+"Imagen": "./Imágenes de vinos/fileni-martin-chardonnay-1-520x520.jpg"
+}
+
+,{"Plato recomendado": "Burratina fritta",
+"Vino | Varietal": "Gen JIJIJI Chenin Blanc",
+"Bodega": "Bodega Gen del Alma",
+"Procedencia": "Tunuyán - Mendoza",
+"Marida con": "Carnes blancas como aves, pescados y quesos frescos",
+"Precio": "$ 3200.-",
+"Imagen": "./Imágenes de vinos/gen-jijiji-chenin-blanc-520x520.jpg"
+}
+
+,{"Plato recomendado": "Tartare di salmone",
+"Vino | Varietal": "Serbal Viognier",
+"Bodega": "Bodega Atamisque",
+"Procedencia": "Tupungato - Mendoza",
+"Marida con": "Cocina mediterránea a base de pescados y mariscos",
+"Precio": "$ 2400.-",
+"Imagen": "./Imágenes de vinos/serbal-viognier-520x520.jpg"
+}
+
+,{"Plato recomendado": "Tartare di salmone",
+"Vino | Varietal": "Rosado de Malbec",
+"Bodega": "Bodega Tempus Alba",
+"Procedencia": "Tupungato - Mendoza",
+"Marida con": "Pescados, mariscos y carnes a las brasas",
+"Precio": "$ 3400.-",
+"Imagen": "./Imágenes de vinos/Rosado de malbec-png-520x520.png"
+}
+
+,{"Plato recomendado": "Risotto frutti di mare",
+"Vino | Varietal": "Achala Sauvignon Blanc",
+"Bodega": "Bodega Clos de la Roca Brava",
+"Procedencia": "Valle de Traslasierra",
+"Marida con": "Ceviches, pastas y arroces con salsas de frutos de mar",
+"Precio": "$ 2900.-",
+"Imagen": "./Imágenes de vinos/achala-sauvignon-blanc-520x520.jpg"
+}
+
+,{"Plato recomendado": "Risotto frutti di mare",
+"Vino | Varietal": "Vallisto Torrontés",
+"Bodega": "Bodega Vallisto",
+"Procedencia": "Valle de Cafayate - Salta",
+"Marida con": "Ceviches, pescados grillados y platos a base de mariscos",
+"Precio": "$ 3800.-",
+"Imagen": "./Imágenes de vinos/vallisto-torrontes-520x520.jpg"
+}
+
+,{"Plato recomendado": "Pesca del día alla siciliana",
+"Vino | Varietal": "Pinot Noir 2019",
+"Bodega": "Bodega Fileni Martin",
+"Procedencia": "Valle de Uco - Mendoza",
+"Marida con": "Tablas de quesos, carnes blancas y pescados",
+"Precio": "$ 2700.-",
+"Imagen": "./Imágenes de vinos/fileni-martin-pinotnoir-1-260x260.jpg"
+}
+
+,{"Plato recomendado": "Pesca del día alla siciliana",
+"Vino | Varietal": "Malbec La Pesca del Día",
+"Bodega": "Bodega Chacho Asencio",
+"Procedencia": "San Rafael - Mendoza",
+"Marida con": "Carnes rojas, pastas y pescados frescos",
+"Precio": "$ 4300.-",
+"Imagen": "./Imágenes de vinos/chacho-la-pesca-del-dia-260x260.jpg"
+}
+
+,{"Plato recomendado": "Fusilli al fierrito Don Corleone",
+"Vino | Varietal": "Crux Sauvignon Blanc 2017",
+"Bodega": "Bodega Alfa Crux",
+"Procedencia": "Valle de Uco - Mendoza",
+"Marida con": "Carnes ligeras, ensaladas o pastas que incluyan tomate y pimientos",
+"Precio": "$ 2800.-",
+"Imagen": "./Imágenes de vinos/alfa-crux-sauvignon-blanc-520x520.jpg"
+}
+
+,{"Plato recomendado": "Fusilli al fierrito Don Corleone",
+"Vino | Varietal": "Luigi Bosca Riesling",
+"Bodega": "Bodega Luigi Bosca",
+"Procedencia": "Luján de Cuyo - Mendoza",
+"Marida con": "Gran variedad de platos asiáticos y pastas con salsas livianas",
+"Precio": "$ 7100.-",
+"Imagen": "./Imágenes de vinos/riesling-luigi-bosca-520x520.jpg"
+}
+
+,{"Plato recomendado": "Tatén di mela con gelato",
+"Vino | Varietal": "Chardonnay Pet Nat",
+"Bodega": "Bodega Pasaje Nóbrega",
+"Procedencia": "La Consulta - Mendoza",
+"Marida con": "Tablas de quesos, frutos secos y fruta confitada",
+"Precio": "$ 5100.-",
+"Imagen": "./Imágenes de vinos/nobrega-chardonnay-petnat-520x520.jpg"
+}
+
+,{"Plato recomendado": "Tatén di mela con gelato",
+"Vino | Varietal": "Turbio Semillón",
+"Bodega": "Bodega Turbios",
+"Procedencia": "Valle de Uco - Mendoza",
+"Marida con": "Postres de estilo alemán como el strudel de manzana",
+"Precio": "$ 4100.-",
+"Imagen": "./Imágenes de vinos/turbio-semillon-520x520.jpg"
+}
+
+,{"Plato recomendado": "Tatén di mela con gelato",
+"Vino | Varietal": "Turbio Semillón",
+"Bodega": "Bodega Turbios",
+"Procedencia": "Valle de Uco - Mendoza",
+"Marida con": "Postres de estilo alemán como el strudel de manzana",
+"Precio": "$ 4100.-",
+"Imagen": "./Imágenes de vinos/turbio-semillon-520x520.jpg"
+}
+
+,{"Plato recomendado": "Seduzione di cioccolato",
+"Vino | Varietal": "Tempranillo",
+"Bodega": "Bodega Tempus Alba",
+"Procedencia": "Tupungato - Mendoza",
+"Marida con": "Chocolate con frutos rojos o chocolate semiamargo",
+"Precio": "$ 3700.-",
+"Imagen": "./Imágenes de vinos/Tempranillo-PNG-520x520.png"
+}
+
+,{"Plato recomendado": "Seduzione di cioccolato",
+"Vino | Varietal": "La Cayetana Syrah",
+"Bodega": "Bodega La Cayetana",
+"Procedencia": "Valle de Uco - Mendoza",
+"Marida con": "Chocolate con pimienta de Jamaica o pasta de chile",
+"Precio": "$ 4600.-",
+"Imagen": "./Imágenes de vinos/la-cayetana-syrah-520x520.jpg"
+}
+
+,{"Plato recomendado": "Flan de claras",
+"Vino | Varietal": "Puerco Vin Puerco Espín Semillón",
+"Bodega": "Bodega La Giostra del Vino",
+"Procedencia": "Valle de Uco - Mendoza",
+"Marida con": "Postres de dulzura y acidez equilibrada",
+"Precio": "$ 3700.-",
+"Imagen": "./Imágenes de vinos/puerco-vin-semillon-520x520.jpg"
+}
+
+,{"Plato recomendado": "Flan de claras",
+"Vino | Varietal": "Zaha Marsanne",
+"Bodega": "Bodega Teho",
+"Procedencia": "Tunuyán - Mendoza",
+"Marida con": "Postres con leche y crema ",
+"Precio": "$ 5400.-",
+"Imagen": "./Imágenes de vinos/zaha-marsanne-520x520.jpg"
+}
+]
