@@ -1,63 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+        
+            @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap");
+            
+          
+           
+            h1 {
+                color: rgb(126, 109, 31);
+                font-weight:bolder;
+             
+            -webkit-text-stroke: 2px black;
+            color: rgb(228, 218, 199);
+  
+}
+            
+            p
+            {
+             height:80px;    
+            }
+            
+           p >img {
+            height: 250%;
+            margin-top:20px;
+           }
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/login.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    <title>area-vip</title>
-</head>
+            
+            
+           
+            button{
+              
+                height:36px;
+                
+                background-color: rgb(56, 38, 0);
+                color:white; 
+                border-bottom: 2px, dark;
+                font-weight: bold;
+                box-sizing:border-box;
+                display:flex;
+                vertical-align:center;
+                
+                
+                
+            }
+            
+            a {
+                text-decoration:none;
+                color: black; 
+                font-size: larger;
+            }
+            ul {
+                margin-top:60px;
+                padding: 2rem;
+                list-style:none;
 
-<body>
-<div class="container-general">
-    <div class="banner">
-   <img src="https://t4.ftcdn.net/jpg/05/79/98/27/240_F_579982724_iufYZtO9cHxsfZKFDAEwR5hIrloG2e2F.jpg">
-    <div class="container-form sign-up">
-        <div class="welcome-back">
-            <div class="message">
-                <h1>Bienvenido al Area Vip <br>de Sensazione</h2>
-                <br>
-                <p>Si ya tienes una cuenta por favor inicia<br> <span>sesion aqui</span> y haced tu Reserva</p>
-                <form class action ="formulario2">
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Contraseña">
-                <button class="sign-up-btn">
-<a href ="https://fascinating-figolla-76b968.netlify.app/">Iniciar Sesion</a>
+            }
+            li {
+                background-color: rgb(207, 179, 229);
+                padding: 1rem;
+                font-size: 1rem;
+                font-family: "Noto Serif JP", serif;
+                border-bottom: 1px solid darkblue;
+                width: 60%;
+
+            }
+
+            li  > img{
+                height: 180px;
+                width: 160x;
+                padding: 0.5rem;
+                margin-left: 5px;
+                margin-bottom: 1px;
+                margin-right: 8px;
+
+                 
+            }
+            li > span {
+                margin-top: 0px;
+            }
+        </style>
+        <title>cartaVinos</title>
+    </head>
+    <body>
+        <center>
+        
+            <div id="app">
+                <hr />
+                <p>
+                <img class ="photo"src="https://panuts.com/wp-content/uploads/2021/12/Panuts-Importancia-y-tipos-de-botellas-de-vino.jpg">
+               
+                
+             
+                <hr />
+            <div class="texto">
+              <h1> Vinos <i>Sensazione<i></h1>
+                </p>
+               
+                <hr />
+                <hr />
+
+                <div v-if="ListaVinos === null">
+                  <button v-on:click="vinosHandler">
+                     Ver Carta de Vinos
+              
                 </button>
-                </form>
-        </div>        
-        </div>
-    </div>
-    
-    
-    <form class="formulario">
-        <h2 class="create-account">Crear una cuenta VIP</h2>
-        <div class="iconos">
-            <div class="border-icon">
-                <i class='bx bxl-instagram'></i>
+                    <h1 v-else>{{error}}</h1>
+                </div>
+                <a href ="https://sensazioneinicio.netlify.app/">Volver a Pagina Sensazione</a>
+                <div v-else-if="ListaVinos !== null">
+                    <ul>
+                        <li v-for="vino in ListaVinos">
+                            <h2>
+                             {{vino.vino_varietal}}</h2>
+                             <h3><span>
+                             {{vino.bodega}}
+                             {{vino.procedencia}}</span></h3>
+                        <img v-bind:src="vino.img_url" alt="" />
+                         <h3>Marida con:</h3>
+                            {{vino.marida_con}}   
+                            
+                        <h3>Precio Sugerido:{{vino.precio}}</h3>
+                              
+                            
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div                 class="border-icon">
-                <i class='bx bxl-linkedin' ></i>
-            </div>
-            <div class="border-icon">
-                <i class='bx bxl-facebook-circle' ></i>
-            </div>
-        </div>
+        </center>
+    </body>
+    <script type="module">
+        import { createApp } from "https://unpkg.com/vue@3/dist/vue.esm-browser.js";
+        const VINOS_URL = "https://sheetdb.io/api/v1/5d13zvo6ot7li";
+        //const JSON_LOCAL = "./json/comidas.json";
+        /*INSTANCIAR EL CORE*/
 
-        <input id="usuario" type="text" placeholder="Nombre">
-        <input id="email" type="email" placeholder="Email">
-        <input id="password" type="password" placeholder="Contraseña">
-        <input id="password2"type="password" placeholder="Repita Contraseña">
-        <input id="btn-enviar" type="button" value="Registrarse">
-    </form>
-    </div>
-<script src="js/script.js"> 
-</script>
-</body>
+        const CoreApp = {
+            data: function () {
+                return {
+                    //data inicializacion
+                    ListaVinos: null,
+                    error: null,
+                    comidas: {
+                        banner: null,
+                        nombre: null,
+                        acerca_de_nosotros: null,
+                    },
+                    pastas: null,
+                };
+            },
 
+            // created: function () {
+            //     fetch(JSON_LOCAL)
+            //         .then((res) => res.json())
+            //         .then((data) => (this.comidas = data["comidas"]));
+
+            //     fetch(JSON_LOCAL)
+            //         .then((res) => res.json())
+            //         .then((data) => (this.pastas = data["pastas"]));
+            // },
+
+            async created() {
+                try {
+                    const res = await fetch(JSON_LOCAL);
+                    const data = await res.json();
+
+                  
+                } catch (e) {
+                    console.log(e);
+                }
+            },
+
+            methods: {
+                vinosHandler: function () {
+                    fetch(VINOS_URL)
+                        .then((res) => res.json())
+                        .then((data) => (this.ListaVinos = data))
+                        .catch((e) => (this.error = e.toString()));
+                },
+                // vinosHandler: async function () {
+                //     try {
+                //         const res = await fetch(VINOS_URL);
+                //         const data = await res.json();
+                //         this.ListaVinos = data;
+                //     } catch (e) {
+                //         console.log(e.toString());
+                //         this.error = e.toString();
+                //         console.log(this.error);
+                //     }
+                // },
+            },
+        };
+
+        //PASARLO POR ARGUMENTO AL METODO createAPP --> <CORE></CORE>
+
+        const app = createApp(CoreApp);
+
+        /*MONTAR LA APP*/
+        app.mount("#app");
+    </script>
 </html>
