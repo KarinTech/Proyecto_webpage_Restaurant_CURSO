@@ -52,9 +52,9 @@ body {
 }
 
 .message {
-    padding: 1rem;
+    padding: 3rem;
     margin-top: 20px;
-    color:rgb(54, 27, 1);
+    color:rgb(3, 3, 3);
     font-weight: bolder;
     
 }
@@ -66,7 +66,7 @@ body {
     font-weight: bold;
 }
 .message span {
-    color:rgb(251, 213, 160);
+    color:rgb(247, 172, 103);
     font-weight: bold;
 
 }
