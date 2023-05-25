@@ -35,7 +35,7 @@
  ##
  JavaScript fue utilizado para validacion de campos del formulario, mensage de reserva exitosa y consumo de la API de Vinos.
  #
- Pagina Inicio la ha realizado Luciana Pasteris, 
+ Pagina Inicio(con Barra de navegación y footer) - Luciana Pasteris 
  #
  Nosotros - Cynthia Fernandez
  #
