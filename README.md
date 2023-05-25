@@ -37,7 +37,7 @@
  #
  Pagina Inicio la ha realizado Luciana Pasteris, 
  #
- Nosotros - Cyntia
+ Nosotros - Cynthia Fernandez
  #
  Recomendados - Cristina Grisolia
   #
